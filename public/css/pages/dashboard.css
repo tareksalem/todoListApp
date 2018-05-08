@@ -1,0 +1,60 @@
+.container{
+	width:90% !important;
+	height: auto;
+}
+main{
+	animation-delay: .8s !important;
+	background-color: white;
+	height: auto !important;
+		padding:1px;
+}
+.dashboard{
+	background-color: white;
+	border: 1px solid #d4d4d4;
+	padding:15px;
+	min-height: 1000px;
+	height: auto;
+}
+
+.tabs{
+	margin: 30px auto;
+	padding:20px 0;
+	height: auto;
+	text-align: center;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+	background-color: #e8e8e8;
+}
+.tabs .tab a{
+	color:#a8c0ff;
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+	color:#a8c0ff;
+/*	border-bottom: 1px solid #a8c0ff;*/
+}
+.tab .col .s3{
+	height:60px;
+}
+.tabs .indicator{
+	background-color: #a8c0ff !important;
+}
+
+.dash-panel{
+	border:1px solid white;
+	padding:10px;	
+}
+.form-container{
+	background:#f5f5f5 !important;
+	border:#cecece !important;
+	box-shadow: 1px 1px 10px 1px #cecece;
+	width:60% !important;
+}
+.container-under-fixed{
+	margin-top:50px;
+}
+
+.btn-sign{
+	display: block;
+	margin:auto;
+}
+

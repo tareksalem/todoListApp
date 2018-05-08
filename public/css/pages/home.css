@@ -1,0 +1,40 @@
+#home-page{
+    height:auto;
+    background:transparent;
+    overflow:hidden;
+    /*display:none;*/
+    color:white;
+}
+.form-container{
+    background: white;
+    width: 40%;
+    border-radius: 3px;
+    padding:10px;
+}
+
+.btn-sign{
+    background: #3876c8;
+}
+.btn-sign:hover{
+    background: #308fc8;
+}
+.btn-sign:focus{
+ background-color: #308fc8;
+}
+.form-container label{
+    color: #3876c8 !important;
+}
+.form-container input:not(.btn-sign):focus {
+    border-bottom: .7px solid #3876c8 !important;
+}
+.form-container input:not(.btn-sign):active {
+    border-bottom: .7px solid #3876c8 !important;
+}
+/* media query*/
+
+@media(max-width: 600px) {
+    .form-container{
+        width: 70%;
+    }
+}
+/* end media query */

@@ -1,0 +1,21 @@
+.sidenav li>a {
+    /*color:#009688;*/
+    color: #3876c8;
+}
+.sidenav-trigger{
+    color: white;
+}
+header{
+    height:60px;
+    margin-top: 10px;
+    width:100%;
+    overflow: hidden;
+}
+.user-img{
+	border:1px solid #308fc8;
+	width:120px;
+	height:120px;
+	border-radius: 100%;
+	display: block;
+	margin: 80px auto 50px auto;
+}

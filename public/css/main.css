@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+body{
+    background: linear-gradient(to right, #a8c0ff, #3876c8);
+    overflow-y:auto !important;
+}
+/* global classes */
+.main-color{
+     color: #308fc8;
+}
+.cursor-text{
+    cursor: text;
+}
+.cursor-initial{
+    cursor: initial;
+}
+.margin-auto{
+    margin: auto !important;
+}
+/*spinner*/
+.spinner {
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/*end spinner*/
+
+.container{
+    width:90% !important;
+    margin:auto !important;
+    display: block !important;
+}
+.color-main{
+    color: #3876c8;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    font-family: Helvetica;
+}
+
+.loader {
+    height: 20px;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.loader--dot {
+    animation-name: loader;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    border: 2px solid white;
+}
+.loader--dot {
+    background-color:white;
+}
+.loader--dot:first-child {
+    animation-delay: 0.5s;
+}
+.loader--dot:nth-child(2) {
+    animation-delay: 0.4s;
+}
+.loader--dot:nth-child(3) {
+    animation-delay: 0.3s;
+}
+.loader--dot:nth-child(4) {
+    animation-delay: 0.2s;
+}
+.loader--dot:nth-child(5) {
+    animation-delay: 0.1s;
+}
+.loader--dot:nth-child(6) {
+    animation-delay: 0s;
+}
+
+
+
+@keyframes loader {
+    15% {
+        transform: translateX(0);
+    }
+    45% {
+        transform: translateX(230px);
+    }
+    65% {
+        transform: translateX(230px);
+    }
+    95% {
+        transform: translateX(0);
+    }
+}
+
+
+.pointer{
+    cursor: pointer;
+}
+.icon-medium{
+    font-size: 2.8rem !important;
+}
+.col-center{
+    display: block;
+    margin:auto;
+    margin-top:50px;
+    float:none !important;
+}
+/* end global classes */
