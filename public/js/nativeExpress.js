@@ -1148,6 +1148,7 @@ function Express() {
         this.errorPage = function (cb) {
             var errorArr = [];
             var pathname = location.href.split(location.origin)[1].split("=")[0];
+            pathname = pathname.indexOf("#") ? pathname.split("#")[0] : pathname;
             if (selfe.routers.indexOf(pathname) !== -1) {
                 return null;
             } else {
