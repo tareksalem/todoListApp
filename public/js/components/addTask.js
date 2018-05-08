@@ -4,7 +4,7 @@ var date = new Date();
 express.renderComponent(function (data) {
 	return (`
 			<div class="container animated slideInLeft">
-				              <div class="form-container row margin-auto">
+				              <div class="col s12 m10 l8 form-container row margin-auto">
                   <div class="row">
                        <h5 class="center-align color-main">Add new Task</h5>
                   </div>
@@ -13,21 +13,21 @@ express.renderComponent(function (data) {
                   </div>
       <form lang="es" clientPosting="true" action="addTask" class="col s12">
         <div class="row">
-          <div class="input-field col s6">
+          <div class="input-field col s12">
             <input id="taskName" name="taskName" type="text" class="validate">
             <label for="taskName">Task Name</label>
           </div>
-                    <div class="input-field col s6">
+                    <div class="input-field col s12">
             <input id="taskDescription" name="taskDescription" type="text" class="validate">
             <label for="taskDescription">Task Description</label>
           </div>
         </div>
                 <div class="row">
-          <div class="input-field col s6">
+          <div class="input-field col s12">
             <input id="taskDate" name="taskDate" type="date" value="YYYY-MM-DD" min="${data.date}" class="validate">
             <label for="taskDate">Task Date</label>
           </div>
-                    <div class="input-field col s6">
+                    <div class="input-field col s12">
             <input id="taskDate" name="taskTime" type="time" class="validate">
             <label for="taskDate">Task Date</label>
           </div>

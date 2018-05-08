@@ -82,21 +82,21 @@ express.renderComponent(function (data) {
                   </div>
       <form lang="es" clientPosting="true" action="editTask" class="col s12">
         <div class="row">
-          <div class="input-field col s6">
+          <div class="input-field col s12 m6 l6">
             <input expName="taskName" id="taskName" name="taskName" type="text" class="validate">
             <label for="taskName">Task Name</label>
           </div>
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 m6 l6">
             <input expName="taskDescription" id="taskDescription" name="taskDescription" type="text" class="validate">
             <label for="taskDescription">Task Description</label>
           </div>
         </div>
                 <div class="row">
-          <div class="input-field col s6">
+          <div class="input-field col s12 m6 l6">
             <input expName="taskDate" id="taskDate" name="taskDate" type="date" value="YYYY-MM-DD" min="${data.date}" class="validate">
             <label for="taskDate">Task Date</label>
           </div>
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 m6 l6">
             <input expName="taskTime" id="taskTime" name="taskTime" type="time" class="validate">
             <label for="taskTime">Task Date</label>
           </div>
