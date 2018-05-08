@@ -34,7 +34,7 @@ if (localStorage.getItem("user") !== null) {
         </div>
         <div class="row">
               <div class="input-field col s12">
-                  <input class="waves-effect btn-sign waves-light btn-small" type="submit" value="subnit"/>    
+                  <input class="waves-effect btn-sign waves-light btn-small" type="submit" value="submit"/>    
               </div>
          </div>
       </form>
