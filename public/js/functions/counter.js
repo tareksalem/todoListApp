@@ -19,6 +19,10 @@ function notifyUser() {
 					// show alert to user
 					showAllert(task);
 					clearInterval(intirval);
+				document.event("touchstart", function (e) {
+										showAllert(task);
+					clearInterval(intirval);
+				})
 				}
 			}
 		}, 1000)
@@ -29,9 +33,6 @@ notifyUser();
 
 function showAllert(task) {
 	let dashboard = document.querySelector(".dashboard");
-	// if (express.getComponent("counterComponent")) {
-		// return null;
-	// } else {
 			express.renderComponent(function (data) {
 		return (`
 				<div responseType="display" display1="none" class="container-alert">
@@ -75,5 +76,4 @@ function showAllert(task) {
 
 		})
 	})
-	// }
 }
