@@ -19,10 +19,10 @@ function notifyUser() {
 					// show alert to user
 					showAllert(task);
 					clearInterval(intirval);
-				document.event("touchstart", function (e) {
-										showAllert(task);
-					clearInterval(intirval);
-				})
+				// document.event("touchstart", function (e) {
+				// 	showAllert(task);
+				// 	clearInterval(intirval);
+				// })
 				}
 			}
 		}, 1000)
